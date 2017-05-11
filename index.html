@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="icon" href="gear_icon.jpg">
+  <script src="scripts/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="scripts/script.js"></script>
+  <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+  <title>Object Generator</title>
+</head>
+<body>
+  <div id="title_holder">
+    <h1 id="title">OBJECT GENERATOR</h1>
+  </div>
+  <div id="everything">
+    
+    <div id="function">
+      <input id="object_Name" class='text_field' placeholder="Object Name"></input> <button class="utility btn btn-default" id="run">Generate!</button> <br>
+    
+      <div id="result"><p id="appear">Object Appears Here</p></div><br>
+    
+      <button type="button" id="clear_parameters" class="utility btn btn-default" data-toggle="tooltip" data-placement="left" title="Clears all Key-Value pairs, the object name and the printed object">Clear All</button><button id="clear_values" class="utility btn btn-default" data-toggle="tooltip" data-placement="right" title="Clears only the property values">Clear Values</button>
+    
+      <div id="parameters"></div>
+
+      <button class="utility btn btn-default" id="Add">Add Key-Value Pair</button><button class="utility btn btn-default" id="Remove">Remove Pair</button>
+    </div>
+    <div id="past_objects">
+      <p id="obj0">Past 10 objects appear over here!</p>
+    </div>  
+  </div>
+</body>
+</html>

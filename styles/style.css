@@ -1,0 +1,104 @@
+body{
+	background-image: url("blue_crystal.jpg");
+}
+@font-face{
+	font-family: "Bungee";
+	src: url("bungee_regular.ttf") format("truetype");
+}
+
+#parameters {
+	padding-top: 10px;
+}
+
+.pair{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.right{
+	margin-left: 5px;
+}
+#result{
+	font-family: monospace;
+	font: Andale Mono;
+	vertical-align: middle;
+	width: 500px;
+	word-wrap: break-word;
+	background-color: white;
+	display: inline-block;
+	border: dashed 2px black;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	
+}
+.utility{
+	margin-right: 10px;
+	background-color: lightblue;
+	background-image: linear-gradient(blue,lightblue);
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+	border-radius: 10px;
+	padding: 5px;
+	border: inset 3px blue;
+	box-shadow: 1.5px 1.5px 1.5px black;
+
+}
+
+#function{
+	float: left;
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 20%;
+
+}
+#past_objects{
+	font-family: monospace;
+	font: Andale Mono;
+	float: left;
+	margin-left: 50px;
+	background-image: url("background2.jpg");
+	color: lightblue;
+	padding-top: 10px;
+	padding-left: 25px;
+	word-wrap: break-word;
+	width: 35%;
+	border-radius: 15px;
+	border: ridge 6px blue; 
+}
+
+#everything{
+	margin-top: 50px;
+}
+
+#title{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 36pt;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#title_holder{
+	background-color: black;
+	color: DodgerBlue;
+	padding-top:20px;
+	padding-bottom: 20px;
+	border: 7px ridge blue;
+	background-image: url("gears.jpg");
+	border-radius: 10px;
+	font-family: Bungee;
+	vertical-align: middle;
+}
+.text_field{
+	height: 30px;
+	border-radius: 7px;
+	border: solid 3px;
+	border-color: blue;
+	padding-left: 5px;
+	box-shadow: 1.5px 1.5px 1.5px black;
+	
+
+}
+footer{
+	background-color: black;
+}
